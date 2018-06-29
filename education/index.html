@@ -32,49 +32,39 @@
 			<link rel="stylesheet" href="css/new_main.css">
 			<!-- <link rel="stylesheet" href="css/calendar-styles.css"> -->
 			<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		</head>
 		<body>	
-		  <header id="header" id="home">
-		  
-	  		
-			
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="courses.html">Challenges</a></li>
-			          <li><a href="events.html">Upcoming Events</a></li>
-			          <!-- <li><a href="gallery.html">Gallery</a></li> -->
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <!-- <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		              		<li><a href="course-details.html">Course Details</a></li>		
-		              		<li><a href="event-details.html">Event Details</a></li>		
-			                <li><a href="elements.html">Elements</a></li>
-					          <li class="menu-has-children"><a href="">Level 2 </a>
-					            <ul>
-					              <li><a href="#">Item One</a></li>
-					              <li><a href="#">Item Two</a></li>
-					            </ul>
-					          </li>					                		
-			            </ul>
-			          </li>	 -->				          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
+			<header id="header" id="home">
+
+
+
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+						<div id="logo">
+							<a href="index.html"><img src="img/tc-logo2.png" alt="" title="" /></a>
+						</div>
+						<nav id="nav-menu-container">
+							<ul class="nav-menu" id="nav-menu">
+								<li><a href="index.html">Home</a></li>
+								<!-- <li><a href="about.html">About</a></li> -->
+								<li><a href="courses.html">Challenges</a></li>
+								<li><a href="events.html">Upcoming Events</a></li>
+								<!-- <li><a href="gallery.html">Gallery</a></li> -->
+								<li class="menu-has-children"><a href="">Blog</a>
+									<ul>
+										<li><a href="blog-home.html">Blog Home</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+									</ul>
+								</li>	
+
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</nav><!-- #nav-menu-container -->		    		
+					</div>
+				</div>
+			</header><!-- #header -->
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">
@@ -82,7 +72,7 @@
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-between">
 						<div class="banner-content col-lg-9 col-md-12">
-							<h1 class="">
+							<h1 id="banner">
 								Working and building together to 
 								<br> solve problems		
 							</h1>
@@ -101,42 +91,44 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4">
-							<div class="single-feature">
-								<div class="title">
-									<h4>Learn Online Courses</h4>
+							<div class="single-feature" id="challenge">
+								<div class="title" id="challenge-title">
+									<h4>I need a book</h4>
 								</div>
-								<div class="desc-wrap">
+								<div class="desc-wrap" id="challenge-content">
 									<p>
-										Usage of the Internet is becoming more common due to rapid advancement
-										of technology.
+										This challenge involves building a systems that allows automated borrowing of books from the ALC Library. Join a team and get started on the challenge.
+
 									</p>
-									<a href="#">Join Now</a>									
+									<div class="challenge-link"><a href="#" >Join Now</a></div>									
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
-							<div class="single-feature">
+							<div class="single-feature" id="challenge">
 								<div class="title">
-									<h4>No.1 of universities</h4>
+									<h4>Super U map</h4>
 								</div>
 								<div class="desc-wrap">
 									<p>
-										For many of us, our very first experience of learning about the celestial bodies begins when we saw our first.
+										
+										Help ALU students manage their time well while shopping at super U and make it easier for them by allocating where different materials are in the mall. 
+
 									</p>
-									<a href="#">Join Now</a>									
+									<div class="challenge-link"><a href="#">Join Now</a></div>									
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
-							<div class="single-feature">
+							<div class="single-feature" id="challenge">
 								<div class="title">
-									<h4>Huge Library</h4>
+									<h4>Help Me Wash </h4>
 								</div>
 								<div class="desc-wrap">
 									<p>
-										If you are a serious astronomy fanatic like a lot of us are, you can probably remember that one event.
+										Help our RA's automated the laundry system by enabling  automated booking  the washing machine tokens. Join a team and get soapy ;)
 									</p>
-									<a href="#">Join Now</a>									
+									<div class="challenge-link"><a href="#">Join Now</a></div>									
 								</div>
 							</div>
 						</div>												
@@ -151,15 +143,17 @@
 				<div class="container-fluid">
 					<div class="row align-items-center">
 						<div class="col-lg-6 no-padding info-area-left">
-							<img class="img-fluid" src="img/about-img.jpg" alt="">
+							<img class="img-fluid" src="img/about2.png" alt="">
 						</div>
 						<div class="col-lg-6 info-area-right">
-							<h1>About Us</h1>
+							<h1> About Us </h1>
 							<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.</p>
 							<br>
 							<p>
 								inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
 							</p>
+
+							<a href="#" class="primary-btn text-uppercase">Get Started</a>
 						</div>
 					</div>
 				</div>	
@@ -168,12 +162,55 @@
 
 
 
-					
+			<section class="club-stats">
+				<div class="container">
+					<div class="row club-stats-container">
+						<div class="club-block">
+							<div class="club-icon">
+								<i class="fas fa-spinner"></i>
+							</div>
+							<div class="club-stats-item">
+								03
+							</div>
+
+							Ongoing projects
+						</div>
+
+
+						<div class="club-block">
+							<div class="club-icon">
+								<i class="fas fa-users"></i>
+							</div>
+							<div class="club-stats-item">
+								37
+							</div>
+							Club Members
+						</div>
+
+						<div class="club-block">
+							<div class="club-icon">
+								<i class="fas fa-check"></i>
+							</div>
+							<div class="club-stats-item">
+								00
+							</div>
+							Completed projects
+						</div>
+
+
+					</div>
+				</div>
+				
+			</section>		
 			
 			
 
+			
+
+
+
 			<!-- Start search-course Area -->
-			<section class="search-course-area relative">
+			<section class="search-course-area relative section-events">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-between align-items-center">
@@ -223,7 +260,7 @@
 
 						</div>
 						<div class="col-lg-6 col-md-6 search-course-right section-gap">
-						<h4 class="text-white pb-20 text-center mb-30">Calendar Goes Here</h4>
+							<h4 class="text-white pb-20 text-center mb-30">Calendar Goes Here</h4>
 							<!-- <form class="form-wrap" action="#">
 										
 								<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" >
@@ -248,14 +285,14 @@
 
 			
 			
-		
+
 			<!-- Start upcoming-event Area -->
 			<section class="upcoming-event-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-70 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">News</h1>
+								<h1 class="mb-10"> News </h1>
 								<p>If you are a serious tech fanatic like a lot of us</p>
 							</div>
 						</div>
@@ -339,21 +376,20 @@
 				</div>	
 			</section>
 			<!-- End upcoming-event Area -->
-						
+
 			
-						
+
 			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
+			<footer class="footer-area section-gap" id="footer-section">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-2 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h4>Projects</h4>
 								<ul>
-									<li><a href="#">Managed Website</a></li>
-									<li><a href="#">Manage Reputation</a></li>
-									<li><a href="#">Power Tools</a></li>
-									<li><a href="#">Marketing Service</a></li>
+									<li><a href="#">Help Me Wash</a></li>
+									<li><a href="#">Build Our Website</a></li>
+									<li><a href="#">I Need A Book</a></li>
 								</ul>								
 							</div>
 						</div>
@@ -361,10 +397,8 @@
 							<div class="single-footer-widget">
 								<h4>Resources</h4>
 								<ul>
-									<li><a href="#">Guides</a></li>
-									<li><a href="#">Research</a></li>
-									<li><a href="#">Experts</a></li>
-									<li><a href="#">Agencies</a></li>
+									<li><a href="#">Sample Portfolio</a></li>
+									<li><a href="#">GitHub Basics</a></li>
 								</ul>								
 							</div>
 						</div>	
@@ -372,44 +406,43 @@
 							<div class="single-footer-widget">
 								<h4>Quick links</h4>
 								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Upcoming Events</a></li>
+									<li><a href="#">Contact Us</a></li>
 								</ul>								
 							</div>
 						</div>
-																										
+
 						<div class="col-lg-6  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h4>Newsletter</h4>
 								<p>Stay update with our latest</p>
 								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
+									<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+										<div class="input-group">
+											<input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+											<div class="input-group-btn">
+												<button class="btn btn-default" id="footer-button" type="submit">
+													<span class="lnr lnr-arrow-right"></span>
+												</button>    
+											</div>
+											<div class="info"></div>  
+										</div>
 									</form> 
 								</div>
 							</div>
 						</div>											
 					</div>
 					<div class="footer-bottom row align-items-center justify-content-between">
-						<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-						<div class="col-lg-6 col-sm-12 footer-social">
+						<!-- <p class="footer-text m-0 col-lg-6 col-md-12"> --><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						<!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><!-- </p> -->
+						<!-- <div class="col-lg-6 col-sm-12 footer-social">
 							<a href="#"><i class="fa fa-facebook"></i></a>
 							<a href="#"><i class="fa fa-twitter"></i></a>
 							<a href="#"><i class="fa fa-dribbble"></i></a>
 							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
+						</div> -->
 					</div>						
 				</div>
 			</footer>	
@@ -420,18 +453,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
+			<script src="js/easing.min.js"></script>			
 			<script src="js/hoverIntent.js"></script>
 			<script src="js/superfish.min.js"></script>	
 			<script src="js/jquery.ajaxchimp.min.js"></script>
 			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.tabs.min.js"></script>						
 			<script src="js/jquery.nice-select.min.js"></script>	
 			<script src="js/owl.carousel.min.js"></script>									
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
 		</body>
-	</html>
+		</html>
 
 
 
@@ -455,7 +488,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			  			</div>
 			  		</div>			  					
 	  			</div>
-			</div> -->
+	  		</div> -->
 
 
 
@@ -464,7 +497,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 
-<!-- Start popular-course Area -->
+	  		<!-- Start popular-course Area -->
 			<!-- <section class="popular-course-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -680,7 +713,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 
-	<!-- Start review Area -->
+			<!-- Start review Area -->
 			<!-- <section class="review-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">				
