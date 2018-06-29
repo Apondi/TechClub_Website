@@ -116,6 +116,30 @@ h1 #banner{
 	/*background-color: #f4f4f4;*/
 	padding-top: 50px;
 	padding-bottom: 50px;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.join-club{
+	background-image: /*linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),*/ url(../img/background.png);
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	
+}
+
+
+.join-club-text p{
+	color: #bdbdbd;
+	font-size: 16px;
+}
+
+
+
+.join-icon{
+	font-size: 30px;
+	color: #ecaf55;
 }
 
 
@@ -133,6 +157,8 @@ h1 #banner{
 	color: #ecaf55;
 }
 
+
+
 .primary-btn {
     background: #ecaf55;
     color: #000;
@@ -140,10 +166,14 @@ h1 #banner{
 
 }
 
+.search-course-area .search-course-left p {
+    font-size: 14px;
+    }
+
 
 
 .section-events{
-	background-image: /*linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),*/ url(../img/search-bg.jpg);
+	background-image: /*linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),*/ url(../img/background2.png);
  	background-size: cover;
  	background-attachment: fixed;
  	padding-top: 30px;
