@@ -1,3 +1,5 @@
+/*#ecaf55*/
+
 body{
 	background-color:#FFF;
     font-family: "Lato", sans-serif;
@@ -132,8 +134,8 @@ section p {
             transition: all 0.3s ease-in 0s;
 }
 
-.left-nav ul li a:hover, .left-nav ul li .current {
-    background-color: #f7631b;
+.left-nav ul li a:hover, .left-nav ul li .current {s
+    background-color: #ecaf55 /*#f7631b*/;
     color: #fff;
 }
 

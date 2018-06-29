@@ -7,43 +7,154 @@
     background-color: rgba(18,24,61,0.8);
 }
 
-.calendar-event p{
-	color: #bdbdbd;
-
-}
-
-
-
-h1{
-	font-family: 'Maven Pro', sans-serif;
-	text-transform: none ! important;
-
-}
-
-h1 .text-uppercase{
-	text-transform: none ! important;
-}
-
-.info-area{
-	margin-top: 150px;
-}
-
-.main-menu{
-	    border-bottom: 1px solid #ffffff;
-}
-
-.primary-btn {
-    background: #ecaf55;
-    color: #000;
-
-}
-
 .banner-content .primary-btn {
     background-color: #ecaf55;
     color: #000;
 
  }
 
+
+
+.calendar-event p{
+	color: #bdbdbd;
+
+}
+
+#challenge:hover .challenge-link a{
+	color: #ecaf55;
+}
+
+#challenge h4{
+	text-transform: uppercase;
+}
+
+.club-icon{
+	margin-bottom: -18px;
+}
+
+.club-icon i{
+	background-color: #fff;
+	padding: 2px 6px;
+	font-size: 20px;
+	color: #ecaf55;
+}
+
+.club-stats{
+	text-align: center;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+
+.club-stats-container{
+	margin: 10px auto;
+	text-align: center;
+	width: 60%;
+	color: #353c6b;
+	font-weight: bold;
+
+}
+
+.club-stats-item{
+	border: solid 4px #ecaf55;
+	border-radius: 50%;
+	padding: 40px 35px;
+	margin: 30px;
+	margin-top: 0px;
+	font-size: 30px;
+	
+	
+	
+}
+
+#footer-section li a:hover{
+	color: #ecaf55;
+}
+
+#footer-button{
+	background-color: #ecaf55;
+}
+
+
+/*.single-feature #challenge{
+	cursor: pointer;
+}*/
+
+
+
+
+
+
+
+
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	text-transform: none ! important;
+	color: #2a2f4e /*#2d3770*/;
+}
+
+h1:before{
+	content: "<"
+}
+
+h1:after{
+	content: "/>"
+}
+
+h1 .text-uppercase{
+	text-transform: none ! important;
+}
+
+h1 #banner{
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: none ! important;
+}
+
+
+
+.info-area{
+	margin-top: 150px;
+	/*background-color: #f4f4f4;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+.main-menu{
+	    border-bottom: 1px solid #ffffff;;
+	    /*background-color: #2a2f4e;*/
+}
+
+.main-menu img{
+	height: 40px;
+}
+
+#nav-menu a:hover{
+	color: #ecaf55;
+}
+
+.primary-btn {
+    background: #ecaf55;
+    color: #000;
+    margin-top: 30px;
+
+}
+
+
+
+.section-events{
+	background-image: /*linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),*/ url(../img/search-bg.jpg);
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	
+}
+
+
+.single-feature:hover  .title{
+	background-color: #ecaf55;
+}
 
 
  .title hover {
